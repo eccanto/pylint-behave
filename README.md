@@ -78,7 +78,7 @@ tox -e py36
 
 # License
 
-[MIT](./LICENSE)
+[GPLv2](./LICENSE)
 
 # Changelog
 
