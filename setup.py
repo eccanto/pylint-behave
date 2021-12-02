@@ -17,7 +17,7 @@ setup(
     description='A Pylint plugin to help Pylint understand the Behave projects',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    license='MIT',
+    license='GPLv2',
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
@@ -25,7 +25,7 @@ setup(
         'pylint>=2.0',
         'pylint-plugin-utils>=0.5',
     ],
-    python_requires='>=3.6',
+    python_requires='>=3.6.2',
     classifiers=[
         'Environment :: Console',
         'Intended Audience :: Developers',
@@ -36,10 +36,9 @@ setup(
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
-        'Framework :: Behave :: 1.2.4',
         'Framework :: Behave :: 1.2.5',
         'Framework :: Behave :: 1.2.6',
     ],
     keywords=['pylint', 'behave', 'plugin'],
-    zip_safe=True,
+    zip_safe=False,
 )
