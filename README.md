@@ -21,7 +21,7 @@
 This plugin can be simply installed by running:
 
 ```bash
-pip install git+https://github.com/eccanto/pylint-behave.git
+pip install pylint-behave
 ```
 
 if you want to install from a source distribution:
