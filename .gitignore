@@ -1,0 +1,15 @@
+# python files
+*.py[cod]
+__pycache__/
+
+# build files
+dist/
+build/
+pylint_behave.egg-info/
+
+# tox files
+.tox/
+.coverage
+.pytest_cache/
+.cache/
+.eggs/
