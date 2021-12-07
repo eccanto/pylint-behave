@@ -82,4 +82,5 @@ tox -e py36
 
 # Changelog
 
+- 1.0.1 - Compatibility with pylint outdated versions.
 - 1.0.0 - Initial version.
