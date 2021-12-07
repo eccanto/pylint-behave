@@ -25,7 +25,7 @@ def is_behave_func_redefined(node: nodes.Module) -> bool:
 
 
 def is_name_in_behave(node: nodes.Module) -> bool:
-    if node.modname == 'behave':
+    if hasattr(node, 'modname') and (node.modname == 'behave'):
         node.names = [(name, alias) for name, alias in node.names if name not in _BEHAVE_NAMES]
 
     return False
