@@ -13,3 +13,6 @@ pylint_behave.egg-info/
 .pytest_cache/
 .cache/
 .eggs/
+
+# pyenv
+.python-version

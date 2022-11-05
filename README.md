@@ -11,6 +11,9 @@
   * [Usage](#usage)
 * [Features](#features)
 * [Testing](#testing)
+  * [Requirements][#requirements]
+  * [Set Python versions](#set-python-versions)
+  * [Run][#run]
 * [License](#license)
 * [Changelog](#changelog)
 
@@ -62,6 +65,26 @@ pylint --load-plugins=pylint_behave [options..] <path_to_your_code>
 
 # Testing
 
+## Requirements
+
+```bash
+pip3 install -r requirements.txt
+```
+
+## Set Python versions
+
+1. Install [pyenv](https://github.com/pyenv/pyenv)
+2. Install python versions:
+    ```bash
+    for python_version in "3.7" "3.8" "3.9" "3.10" "3.11" "3.12" ; do pyenv install ${python_version}; done
+    ```
+3. Enable python versions:
+    ```bash
+    pyenv local "3.7" "3.8" "3.9" "3.10" "3.11" "3.12"
+    ```
+
+## Run
+
 We use [tox](https://tox.wiki/en/latest/) and [pytest](https://docs.pytest.org/en/6.2.x) to run the
 test suite:
 
@@ -69,18 +92,19 @@ test suite:
 tox
 ```
 
-to run the test suite for a particular Python version (**36**, **37**, **38** or **39**), you can do:
+to run the test suite for a particular Python version, you can do:
 
 
 ```bash
-tox -e py36
+tox -e py37
 ```
 
 # License
 
-[GPLv2](./LICENSE)
+[MIT](./LICENSE)
 
 # Changelog
 
+- 1.0.2 - Extended support for Python 3.10, 3.11 and 3.12, and update the documentation.
 - 1.0.1 - Compatibility with pylint outdated versions.
 - 1.0.0 - Initial version.
