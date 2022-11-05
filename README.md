@@ -11,9 +11,9 @@
   * [Usage](#usage)
 * [Features](#features)
 * [Testing](#testing)
-  * [Requirements][#requirements]
+  * [Requirements](#requirements)
   * [Set Python versions](#set-python-versions)
-  * [Run][#run]
+  * [Run](#run)
 * [License](#license)
 * [Changelog](#changelog)
 
