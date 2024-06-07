@@ -11,7 +11,7 @@ with open('README.md', 'r', encoding='utf8') as readme:
 
 setup(
     name='pylint-behave',
-    version='1.0.2',
+    version='1.0.3',
     url='https://github.com/eccanto/pylint-behave',
     author='Erik Ccanto',
     author_email='ccanto.erik@gmail.com',
