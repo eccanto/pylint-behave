@@ -14,5 +14,6 @@ pylint_behave.egg-info/
 .cache/
 .eggs/
 
-# pyenv
+# environment
+.venv/
 .python-version
