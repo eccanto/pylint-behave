@@ -102,9 +102,3 @@ tox -e py37
 # License
 
 [MIT](./LICENSE)
-
-# Changelog
-
-- 1.0.2 - Extended support for Python 3.10, 3.11 and 3.12, and update the documentation.
-- 1.0.1 - Compatibility with pylint outdated versions.
-- 1.0.0 - Initial version.
