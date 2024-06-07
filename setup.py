@@ -26,7 +26,7 @@ setup(
         'pylint>=3.0',
         'pylint-plugin-utils>=0.5',
     ],
-    python_requires='>=3.7.15',
+    python_requires='>=3.8',
     classifiers=[
         'Environment :: Console',
         'Intended Audience :: Developers',
