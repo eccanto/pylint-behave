@@ -13,7 +13,7 @@ def load_configuration(linter: PyLinter) -> None:
     Amend existing checker config.
     """
     name_checker = get_checker(linter, NameChecker)
-    name_checker.config.good_names += ('i', 'j', 'x', 'y')
+    name_checker.linter.config.good_names += ("i", "j", "x", "y")
 
 
 def register(linter: PyLinter) -> None:

@@ -1,6 +1,5 @@
 from pylint.checkers import BaseChecker
-from pylint.checkers.utils import check_messages
-
+from pylint.checkers.utils import only_required_for_messages
 from pylint_behave.__pkginfo__ import BASE_ERROR_ID
 
 
@@ -15,7 +14,7 @@ class BehaveInstalledChecker(BaseChecker):
         ),
     }
 
-    @check_messages('behave-not-available')
+    @only_required_for_messages('behave-not-available')
     def open(self) -> None:
         try:
             __import__('behave')
