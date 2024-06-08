@@ -15,7 +15,6 @@
   * [Set Python versions](#set-python-versions)
   * [Run](#run)
 * [License](#license)
-* [Changelog](#changelog)
 
 # Get started
 
